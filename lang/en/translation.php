@@ -45,5 +45,8 @@ return [
         "title" => "Success Operation",
         "message" => "Message sent successfully."
     ],
-
+    '1012' => [
+        "title" => "Success Operation",
+        "message" => "Received all own messages successfully."
+    ],
 ];

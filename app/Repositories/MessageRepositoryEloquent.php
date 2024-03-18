@@ -3,10 +3,9 @@
 namespace App\Repositories;
 
 use App\Models\Message;
-use App\Models\Transaction;
 use App\Repositories\Interfaces\MessageRepository;
-use Prettus\Repository\Eloquent\BaseRepository;
 use Prettus\Repository\Criteria\RequestCriteria;
+use Prettus\Repository\Eloquent\BaseRepository;
 
 /**
  * Class MessageRepositoryEloquent.
@@ -23,6 +22,11 @@ class MessageRepositoryEloquent extends BaseRepository implements MessageReposit
     public function model()
     {
         return Message::class;
+    }
+
+    function searchByUser($userId)
+    {
+        return $this->model->byUser($userId);
     }
 
     /**

@@ -12,8 +12,16 @@ class Message extends Model
     protected $fillable = [
         'message',
         'receiver_id',
-        'sender_id'
+        'sender_id',
+        'iv'
     ];
+
+    public function scopeByUser($query, $userId)
+    {
+        $query->whereHas('receiver', function ($q) use ($userId) {
+            $q->where('receiver_id', $userId);
+        });
+    }
     public function receiver()
     {
         return $this->belongsTo(User::class);

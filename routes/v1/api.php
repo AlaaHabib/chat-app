@@ -24,6 +24,8 @@ Route::post('/login', [AuthController::class, 'login'])->name('login');
 
 Route::middleware('auth:api')->group(function () {
     Route::post('send-message', [PrivateChatController::class, 'sendMessage']);
+    Route::get('receive-messages', [PrivateChatController::class, 'receiveMessage']);
+
     Route::get('logout', [AuthController::class, 'logout']);
 });
 

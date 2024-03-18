@@ -15,5 +15,14 @@ Run the following commands
 - php artisan serve 
 - node server.js
 
+## Using 
+
+- Repository pattern for saving messages 
+- Socket io , Socket io client to send message in private room 
+- Open SSL with AES algorithm to encrypt messages 
+- Global Handler 
+- Translation for All request by add header locale (en , ar)
+- Swagger Documentation
+
 ## Swagger Doc.
 View http://localhost:8000/api/documentation
