@@ -123,7 +123,6 @@ class AuthController extends Controller
         return Response::create()
             ->setMessage(__(AppConstants::RESPONSE_CODES_MESSAGES[AppConstants::APP_1010]))
             ->setStatusCode(StatusCode::HTTP_OK)
-            ->setData([])
             ->setResponseCode(AppConstants::APP_1010)
             ->success();
     }
