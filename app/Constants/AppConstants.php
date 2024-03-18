@@ -15,6 +15,8 @@ class AppConstants
     const APP_1009 = '1009';
     const APP_1010 = '1010';
     const APP_1011 = '1011';
+    const APP_1012 = '1012';
+
 
 
 
@@ -30,6 +32,8 @@ class AppConstants
         self::APP_1009 => 'translation.1009.message',
         self::APP_1010 => 'translation.1010.message',
         self::APP_1011 => 'translation.1011.message',
+        self::APP_1012 => 'translation.1012.message',
+
 
 
 
@@ -48,9 +52,7 @@ class AppConstants
         __('translation.1009.title');
         __('translation.1010.title');
         __('translation.1011.title');
-
-
-
+        __('translation.1012.title');
 
 
         __('translation.1001.message');
@@ -64,8 +66,7 @@ class AppConstants
         __('translation.1009.message');
         __('translation.1010.message');
         __('translation.1011.message');
-
-
+        __('translation.1012.message');
 
     }
 }

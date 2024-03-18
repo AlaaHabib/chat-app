@@ -2,48 +2,51 @@
 return [
 
     '1001' => [
-        "title" => "Failed Operation",
-        "message" => "You are not authorized to access this resource."
+        "title" => "العملية الفاشلة",
+        "message" => "ليس مسموح لك الوصول إلى هذا المورد.",
     ],
     '1002' => [
-        "title" => "Failed Operation",
-        "message" => "The requested resource was not found. "
+        "title" => "العملية الفاشلة",
+        "message" => "لم يتم العثور على المصدر المطلوب.",
     ],
     '1003' => [
-        "title" => "Failed Operation",
-        "message" => "The security token has expired or is invalid. Please refresh the page and try again."
+        "title" => "العملية الفاشلة",
+        "message" => "لقد انتهت صلاحية رمز الأمان أو أنه غير صالح. يرجى تحديث الصفحة والمحاولة مرة أخرى.",
     ],
     '1004' => [
-        "title" => "Failed Operation",
-        "message" => "The submitted data is invalid. Please review and correct the errors."
+        "title" => "العملية الفاشلة",
+        "message" => "البيانات المقدمة غير صالحة. يرجى مراجعة الأخطاء وتصحيحها.",
     ],
     '1005' => [
-        "title" => "Failed Operation",
-        "message" => "An error occurred while processing your request."
+        "title" => "العملية الفاشلة",
+        "message" => "حدث خطأ أثناء معالجة طلبك.",
     ],
     '1006' => [
-        "title" => "Failed Operation",
-        "message" => "The requested method is not allowed."
+        "title" => "العملية الفاشلة",
+        "message" => "الطريقة المطلوبة غير مسموح بها.",
     ],
     '1007' => [
-        "title" => "Failed Operation",
-        "message" => "Authentication failed. Please provide valid credentials and try again."
+        "title" => "العملية الفاشلة",
+        "message" => "فشلت المصادقة. يرجى تقديم بيانات اعتماد صالحة ثم حاول مرة أخرى.",
     ],
     '1008' => [
-        "title" => "Success Operation",
-        "message" => "Sign up successfully"
+        "title" => "العملية الناجحة",
+        "message" => "تم التسجيل بنجاح",
     ],
     '1009' => [
-        "title" => "Success Operation",
-        "message" => "Login Successfully."
+        "title" => "العملية الناجحة",
+        "message" => "تم تسجيل الدخول بنجاح.",
     ],
     '1010' => [
-        "title" => "Success Operation",
-        "message" => "Logout Successfully."
+        "title" => "العملية الناجحة",
+        "message" => "تم تسجيل الخروج بنجاح.",
     ],
     '1011' => [
-        "title" => "Success Operation",
-        "message" => "Message sent successfully."
+        "title" => "العملية الناجحة",
+        "message" => "تم إرسال الرسالة بنجاح.",
     ],
-
+    '1012' => [
+        "title" => "العملية الناجحة",
+        "message" => "تم إستلام كافة الرسائل الخاصة بنجاح.",
+    ],
 ];
