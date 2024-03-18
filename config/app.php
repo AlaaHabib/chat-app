@@ -143,6 +143,11 @@ return [
         'driver' => 'file',
         // 'store' => 'redis',
     ],
+    'broadcasting' => [
+        'default' => 'pusher',
+    ],
+
+    'cipher' => 'AES-256-CBC',
 
     /*
     |--------------------------------------------------------------------------
