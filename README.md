@@ -12,6 +12,8 @@ Run the following commands
 - php artisan migrate --seed
 - php artisan key:generate
 - php artisan l5-swagger:generate
+- php artisan serve 
+- node server.js
 
 ## Swagger Doc.
 View http://localhost:8000/api/documentation
