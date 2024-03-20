@@ -59,7 +59,7 @@ class PrivateChatController extends Controller
         $this->messageRepository->create($data);
         // Using Redis
         // Emit the message to the user's room
-        Redis::publish("private-chat-room-{$receiverId}", json_encode(['message' => $encryptedMessage]));
+        // Redis::publish("private-chat-room-{$receiverId}", json_encode(['message' => $encryptedMessage]));
 
         return Response::create()
             ->setMessage(__(AppConstants::RESPONSE_CODES_MESSAGES[AppConstants::APP_1011]))
